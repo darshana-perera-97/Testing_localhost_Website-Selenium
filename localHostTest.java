@@ -12,6 +12,10 @@ public class localHostTest {
 		//local host open website
 		driver.navigate().to("http://localhost/employee/admin/index.php");
 
+		
+		//maximizing the window
+		driver.manage().window().maximize();
+
 	}
 
 }
